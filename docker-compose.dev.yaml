@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile.dev
     container_name: petshop
     restart: always
-    command: bash -c "python manage.py runserver 0.0.0.0:7321"
+    command: bash -c "python manage.py runserver 34.122.112.135:7321"
     volumes:
       - .:/petshop
     ports:
